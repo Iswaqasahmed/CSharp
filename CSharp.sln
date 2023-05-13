@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.5.33627.172
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp", "CSharp.csproj", "{B5F16771-F127-459A-9DAC-2F61E73EA995}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{F7FD9818-58E4-4D33-8E73-042788B9E26C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{B06B7675-EAF3-45CC-8166-8BC7A46D139B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F7FD9818-58E4-4D33-8E73-042788B9E26C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7FD9818-58E4-4D33-8E73-042788B9E26C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7FD9818-58E4-4D33-8E73-042788B9E26C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06B7675-EAF3-45CC-8166-8BC7A46D139B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06B7675-EAF3-45CC-8166-8BC7A46D139B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B06B7675-EAF3-45CC-8166-8BC7A46D139B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06B7675-EAF3-45CC-8166-8BC7A46D139B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

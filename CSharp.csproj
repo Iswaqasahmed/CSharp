@@ -49,5 +49,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="DataStructures\DataStructures.csproj">
+      <Project>{f7fd9818-58e4-4d33-8e73-042788b9e26c}</Project>
+      <Name>DataStructures</Name>
+    </ProjectReference>
+    <ProjectReference Include="OOP\OOP.csproj">
+      <Project>{b06b7675-eaf3-45cc-8166-8bc7a46d139b}</Project>
+      <Name>OOP</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
