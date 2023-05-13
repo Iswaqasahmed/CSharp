@@ -16,12 +16,24 @@ namespace OOP.Constructor
 
         static ConA()
         {
-
+            Console.WriteLine("it is static constructor... ");
         }
+
+
         
     }
 
        
+    class ConB : ConA
+    {
+        public ConB()
+        {
+
+        }
+
+
+
+    }
     
 
 
