@@ -7,42 +7,101 @@ using System.Threading.Tasks;
 namespace OOP.Constructor
 {
     public class AccessDemo
-    {
+    { 
 
 
-        private void Demo()
+
+        #region Comment 
+
+        //private void Demo()
+        //{
+
+        //    Console.WriteLine("this is demo of private method ");
+        //}
+
+        //private void PrivateDemo()
+        //{
+        //    Demo();
+        //}
+
+        //protected void PrivateDemoProtected()
+        //{
+        //    Console.WriteLine("Private Demo Procted method");
+        //}
+
+
+        //protected void PrivateDemoProtectedDisplay()
+        //{
+        //    PrivateDemoProtected();
+        //}
+
+        //internal void InternalDemo()
+        //{
+        //    Console.WriteLine("this is internal Demo method");
+        //}
+
+
+
+        //public void PublicDemo()
+        //{
+        //    Console.WriteLine("public demo method is called");
+        //}
+
+
+        #endregion
+
+
+        /// <summary>
+        ///  Access Modifier or Specifier
+        /// </summary>
+
+
+        public void Pubic()
         {
-
-            Console.WriteLine("this is demo of private method ");
+            Console.WriteLine("this is pbulic method");
         }
 
-        private void PrivateDemo()
+        internal void Internal()
         {
-            Demo();
-        }
-
-        protected void PrivateDemoProtected()
-        {
-            Console.WriteLine("Private Demo Procted method");
+            Console.WriteLine("this is internal method");
         }
 
 
-        protected void PrivateDemoProtectedDisplay()
+        protected void Protected()
         {
-            PrivateDemoProtected();
-        }
-
-        internal void InternalDemo()
-        {
-            Console.WriteLine("this is internal Demo method");
+            Console.WriteLine("this is protected method");
         }
 
 
-
-        public void PublicDemo()
+        private void Private()
         {
-            Console.WriteLine("public demo method is called");
+            Console.WriteLine("thisi is private method");
         }
+
+
+        protected internal void ProtectedInternal()
+        {
+            Console.WriteLine("this is proctected internal method");
+        }
+
+        internal protected void InternalProtected()
+        {
+            Console.WriteLine("this is internal protected method");
+        }
+
+
+        // case - 01
+        public AccessDemo()
+        {
+            Console.WriteLine("Case -1: Consume members of a class in Same Class");
+            Pubic();
+            Internal();
+            Protected();
+            Private();
+            ProtectedInternal();
+        }
+
+
 
 
     }

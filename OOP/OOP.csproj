@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccessModifier\AccessDemo.cs" />
+    <Compile Include="AccessModifier\ChildClass.cs" />
+    <Compile Include="AccessModifier\ProtectedAccess.cs" />
     <Compile Include="Constructor\ConA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -7,11 +7,21 @@ using System.Threading.Tasks;
 
 namespace CSharp
 {
-    public class MainProgram
+    class MainProgram:AccessDemo
     {
+
+
+       
         static void Main(string[] args)
         {
 
+
+            MainProgram mp = new MainProgram();
+            Console.WriteLine("Case-IV:  ");
+            mp.Pubic();
+            mp.Protected();
+            mp.ProtectedInternal();
+            
 
         }
     }
