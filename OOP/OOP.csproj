@@ -42,7 +42,11 @@
   <ItemGroup>
     <Compile Include="AccessModifier\AccessDemo.cs" />
     <Compile Include="AccessModifier\ChildClass.cs" />
+    <Compile Include="AccessModifier\PrivateAccessDemo.cs" />
     <Compile Include="AccessModifier\ProtectedAccess.cs" />
+    <Compile Include="AccessModifier\ProtectedAccessDemo.cs" />
+    <Compile Include="AccessModifier\ProtectedInternalAccessDemo.cs" />
+    <Compile Include="AccessModifier\PublicAccessDemo.cs" />
     <Compile Include="Constructor\ConA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

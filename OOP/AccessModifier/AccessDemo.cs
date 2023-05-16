@@ -65,6 +65,10 @@ namespace OOP.Constructor
         {
             Console.WriteLine("this is internal method");
         }
+        internal protected void InternalProtected()
+        {
+            Console.WriteLine("this is internal protected method");
+        }
 
 
         protected void Protected()
@@ -73,21 +77,12 @@ namespace OOP.Constructor
         }
 
 
-        private void Private()
-        {
-            Console.WriteLine("thisi is private method");
-        }
-
-
         protected internal void ProtectedInternal()
         {
             Console.WriteLine("this is proctected internal method");
         }
 
-        internal protected void InternalProtected()
-        {
-            Console.WriteLine("this is internal protected method");
-        }
+        
 
 
         // case - 01
@@ -97,7 +92,7 @@ namespace OOP.Constructor
             Pubic();
             Internal();
             Protected();
-            Private();
+            //Private();
             ProtectedInternal();
         }
 

@@ -1,4 +1,5 @@
-﻿using OOP.Constructor;
+﻿using OOP.AccessModifier;
+using OOP.Constructor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,10 @@ namespace CSharp
        
         static void Main(string[] args)
         {
+
+
+
+            new MyDerivedClass().AccessProtectedInternalMember();
 
 
             MainProgram mp = new MainProgram();
