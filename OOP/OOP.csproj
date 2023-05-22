@@ -48,7 +48,11 @@
     <Compile Include="AccessModifier\ProtectedInternalAccessDemo.cs" />
     <Compile Include="AccessModifier\PublicAccessDemo.cs" />
     <Compile Include="Constructor\ConA.cs" />
+    <Compile Include="DesignPattern\SingleTonClass\lazyVsEagerLoading.cs" />
+    <Compile Include="DesignPattern\SingleTonClass\SingletonParallelThread.cs" />
+    <Compile Include="DesignPattern\SingleTonClass\SingletonSealedUsed.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DesignPattern\SingleTonClass\SingleTon.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
