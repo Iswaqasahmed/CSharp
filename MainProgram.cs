@@ -1,10 +1,6 @@
-﻿using OOP.AccessModifier;
-using OOP.Constructor;
-using System;
-using System.Collections.Generic;
+﻿using OOP.DesignPattern.SingleTonClass;
 using OOP.SingleTonClass;
-using System.Linq;
-using System.Text;
+using System;
 using System.Threading.Tasks;
 using System.Net.Http.Headers;
 using OOP.DesignPattern.SingleTonClass;
@@ -22,8 +18,14 @@ namespace CSharp
        
         static void Main(string[] args)
         {
-          
-            
+
+            #region 2
+
+            String.ConString cs = new String.ConString();
+            cs.DisplayString();
+
+            #endregion
+
             #region Singleton 
 
             //Parallel.Invoke(
