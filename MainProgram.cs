@@ -9,19 +9,21 @@ using System.Threading.Tasks;
 using System.Net.Http.Headers;
 using OOP.DesignPattern.SingleTonClass;
 using System.Threading;
+using System.Collections.Specialized;
 
 namespace CSharp
 {
     class MainProgram//:AccessDemo
     {
-
+        public class A { }
+        public class B:A { }
+        public class C : B { }
         
        
         static void Main(string[] args)
         {
-
-
-
+          
+            
             #region Singleton 
 
             //Parallel.Invoke(
