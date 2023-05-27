@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="MainProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="String\ConString.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
